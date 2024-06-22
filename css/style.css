@@ -1,0 +1,219 @@
+:root {
+    --typography-color-01: #212529;
+    --typography-color-02: #4e4039;
+    --typography-color-03: #7a6960;
+    --typography-color-04: #a08f86;
+    --ui-color-01: #fff;
+    --ui-color-02: #fef8f5;
+    --ui-color-button-normal: #eb5d1e;
+    --ui-color-button-hover: #ee7843;
+}
+
+:root {
+    --font-family: "Raleway", sans-serif;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #212529;
+}
+
+.section-title h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 29px;
+    font-size: 36px;
+}
+
+.section-title p {
+    text-align: center;
+}
+
+#header {
+    position: relative;
+    top: 95px;
+}
+
+#header h1 {
+    color: #bae6ff;
+}
+
+/* - */
+
+.img-wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* - */
+
+#about {
+    padding: 100px 0;
+}
+
+#about .about-item {
+    padding: 40px 0;
+}
+
+hr {
+    padding-bottom: 30px;
+}
+
+/* - */
+.bg1 {
+    height: 680px;
+    background-image: url(../img/8828_800x600_Vinnickii\ Svetlomuzykalynyi\ fontan\ Roshen\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* - */
+
+#info {
+    padding: 100px 0;
+}
+
+#info .info-item {
+    padding: 0 15px;
+}
+
+#info .info-item ul li {
+    list-style-type: circle;
+    padding-bottom: 10px;
+}
+
+/* - */
+#bests {
+    padding: 60px 0 140px 0;
+}
+
+#trom {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#trom1 {
+    padding: 140px 0 0 0;
+}
+
+/* - */
+#rem {
+    padding: 140px 0;
+}
+
+#rem hr{
+    padding-bottom: 0;
+}
+/* - */
+#footer {
+    padding: 40px 0;
+    color: #fff;
+    background-color: #656464;
+}
+
+#footer h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#footer .footer-link,
+.footer-info,
+.footer-newslatter {
+    padding: 20px 0;
+}
+
+#footer .footer-link ul {
+    margin: 0;
+    padding: 0;
+}
+
+#footer .footer-link ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+#footer .footer-link ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .4s;
+}
+
+#footer .footer-link ul li a:hover {
+    opacity: .6;
+}
+
+#footer .footer-newslatter input[type="email"] {
+    padding: 5px 10px;
+    width: calc(100% - 110px);
+    border: 0;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+}
+
+#footer .footer-newslatter input[type="submit"] {
+    border: 0;
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: rgb(0, 208, 255);
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    margin: -5px;
+    transition: .4s;
+}
+
+#footer .footer-newslatter input[type="submit"]:hover {
+    opacity: .7;
+    ;
+}
+
+/* - */
+#billing {
+    padding: 100px 0;
+}
+
+#billing label {
+    display: block;
+    padding: 6px 0;
+}
+
+#billing .billing-card {
+    padding: 4px 0;
+}
+
+/* - */
+#contacts {
+    padding: 120px 0;
+    padding-top: 160px;
+}
+
+#contacts .social-links a {
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    background-color: #1dddff;
+    border-radius: 50%;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    margin-right: 10px;
+    transition: .4s;
+}
+
+#contacts .social-links a:hover {
+    opacity: .7;
+}
